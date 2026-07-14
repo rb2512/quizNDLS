@@ -1,0 +1,2907 @@
+[
+  {
+    "id": 1,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le droit des obligations",
+    "versionNL": "het verbintenissenrecht"
+  },
+  {
+    "id": 2,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le Code civil",
+    "versionNL": "het Burgerlijk Wetboek"
+  },
+  {
+    "id": 3,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le droit commun",
+    "versionNL": "het gemeen recht"
+  },
+  {
+    "id": 4,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le principe général du droit",
+    "versionNL": "het algemene rechtsbeginsel"
+  },
+  {
+    "id": 5,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation",
+    "versionNL": "de verbintenis"
+  },
+  {
+    "id": 6,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le débiteur",
+    "versionNL": "de schuldenaar"
+  },
+  {
+    "id": 7,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le créancier",
+    "versionNL": "de schuldeiser"
+  },
+  {
+    "id": 8,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la prestation",
+    "versionNL": "de prestatie"
+  },
+  {
+    "id": 9,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la créance",
+    "versionNL": "de schuldvordering"
+  },
+  {
+    "id": 10,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la dette",
+    "versionNL": "de schuld"
+  },
+  {
+    "id": 11,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le droit réel",
+    "versionNL": "het zakelijke recht"
+  },
+  {
+    "id": 12,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation civile",
+    "versionNL": "de burgerlijke verbintenis"
+  },
+  {
+    "id": 13,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation purement morale",
+    "versionNL": "de louter morele verbintenis"
+  },
+  {
+    "id": 14,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation naturelle",
+    "versionNL": "de natuurlijke verbintenis"
+  },
+  {
+    "id": 15,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation de donner",
+    "versionNL": "de verbintenis iets te geven"
+  },
+  {
+    "id": 16,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation de faire",
+    "versionNL": "de verbintenis iets te doen"
+  },
+  {
+    "id": 17,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le service",
+    "versionNL": "de dienst"
+  },
+  {
+    "id": 18,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation de ne pas faire",
+    "versionNL": "de verbintenis iets niet te doen"
+  },
+  {
+    "id": 19,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le transfert de propriété",
+    "versionNL": "de eigendomsoverdracht"
+  },
+  {
+    "id": 20,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "le patrimoine",
+    "versionNL": "het vermogen"
+  },
+  {
+    "id": 21,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la réserve de propriété",
+    "versionNL": "het eigendomsvoorbehoud"
+  },
+  {
+    "id": 22,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la spécification (d'une chose de genre)",
+    "versionNL": "de afzondering"
+  },
+  {
+    "id": 23,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la dette de valeur",
+    "versionNL": "de waardenschuld"
+  },
+  {
+    "id": 24,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la dette de somme",
+    "versionNL": "de sommenschuld"
+  },
+  {
+    "id": 25,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la chose future",
+    "versionNL": "de toekomstige zaak"
+  },
+  {
+    "id": 26,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation de moyen",
+    "versionNL": "de inspanningsverbintenis"
+  },
+  {
+    "id": 27,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation de résultat",
+    "versionNL": "de resultaatsverbintenis"
+  },
+  {
+    "id": 28,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation conjonctive ou cumulative",
+    "versionNL": "de cumulatieve verbintenis"
+  },
+  {
+    "id": 29,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation alternative",
+    "versionNL": "de alternatieve verbintenis"
+  },
+  {
+    "id": 30,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation facultative",
+    "versionNL": "de facultatieve verbintenis"
+  },
+  {
+    "id": 31,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation conjointe",
+    "versionNL": "de samengevoegde verbintenis"
+  },
+  {
+    "id": 32,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation divisible",
+    "versionNL": "de deelbare verbintenis"
+  },
+  {
+    "id": 33,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation solidaire",
+    "versionNL": "de hoofdelijke verbintenis"
+  },
+  {
+    "id": 34,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation indivisible",
+    "versionNL": "de ondeelbare verbintenis"
+  },
+  {
+    "id": 35,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "l'obligation à la dette",
+    "versionNL": "de gehoudenheid"
+  },
+  {
+    "id": 36,
+    "numeroChapitre": 1,
+    "libelleChapitre": "Introduction générale",
+    "versionFR": "la contribution à la dette",
+    "versionNL": "de bijdrage"
+  },
+  {
+    "id": 37,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat",
+    "versionNL": "het contract"
+  },
+  {
+    "id": 38,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la convention (par extension : le contrat)",
+    "versionNL": "de overeenkomst"
+  },
+  {
+    "id": 39,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la partie (à un contrat)",
+    "versionNL": "de partij"
+  },
+  {
+    "id": 40,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le tiers",
+    "versionNL": "de derde"
+  },
+  {
+    "id": 41,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "l'acte juridique unilatéral",
+    "versionNL": "de eenzijdige rechtshandeling"
+  },
+  {
+    "id": 42,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "les sources des obligations",
+    "versionNL": "de bronnen van verbintenissen"
+  },
+  {
+    "id": 43,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "l'acte juridique",
+    "versionNL": "de rechtshandeling"
+  },
+  {
+    "id": 44,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le fait juridique",
+    "versionNL": "het rechtsfeit"
+  },
+  {
+    "id": 45,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat bipartite",
+    "versionNL": "de tweepartijenovereenkomst"
+  },
+  {
+    "id": 46,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat multipartite",
+    "versionNL": "de meerpartijenovereenkomst"
+  },
+  {
+    "id": 47,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat unilatéral",
+    "versionNL": "de eenzijdige overeenkomst"
+  },
+  {
+    "id": 48,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat synallagmatique parfait",
+    "versionNL": "de volmaakt wederkerige overeenkomst"
+  },
+  {
+    "id": 49,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat synallagmatique imparfait",
+    "versionNL": "de onvolmaakt wederkerige overeenkomst"
+  },
+  {
+    "id": 50,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la  connexité",
+    "versionNL": "de samenhang"
+  },
+  {
+    "id": 51,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la donation",
+    "versionNL": "de schenking"
+  },
+  {
+    "id": 52,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la libéralité",
+    "versionNL": "de gift"
+  },
+  {
+    "id": 53,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat à titre onéreux",
+    "versionNL": "de overeenkomst onder bezwarende titel"
+  },
+  {
+    "id": 54,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat à titre gratuit",
+    "versionNL": "de overeenkomst om niet"
+  },
+  {
+    "id": 55,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat à titre gratuit",
+    "versionNL": "de overeenkomst ten kostenloze titel"
+  },
+  {
+    "id": 56,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat aléatoire",
+    "versionNL": "het kanscontract"
+  },
+  {
+    "id": 57,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat commutatif",
+    "versionNL": "het vergeldende contract"
+  },
+  {
+    "id": 58,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat consensuel",
+    "versionNL": "de consensuele overeenkomst"
+  },
+  {
+    "id": 59,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat réel",
+    "versionNL": "de zakelijke overeenkomst"
+  },
+  {
+    "id": 60,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat solennel",
+    "versionNL": "de plechtige overeenkomst"
+  },
+  {
+    "id": 61,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat nommé",
+    "versionNL": "de benoemde overeenkomst"
+  },
+  {
+    "id": 62,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat innomé",
+    "versionNL": "de onbenoemde overeenkomst"
+  },
+  {
+    "id": 63,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat principal",
+    "versionNL": "het hoofdcontract"
+  },
+  {
+    "id": 64,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat accessoire",
+    "versionNL": "het bijkomende contract"
+  },
+  {
+    "id": 65,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat instantané",
+    "versionNL": "het aflopend contract"
+  },
+  {
+    "id": 66,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat successif",
+    "versionNL": "het duurcontract"
+  },
+  {
+    "id": 67,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat commercial",
+    "versionNL": "het handelscontract"
+  },
+  {
+    "id": 68,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat civil",
+    "versionNL": "het burgerlijk contract"
+  },
+  {
+    "id": 69,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "l'autonomie de la volonté",
+    "versionNL": "de wilsautonomie"
+  },
+  {
+    "id": 70,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la liberté contractuelle",
+    "versionNL": "de contractvrijheid"
+  },
+  {
+    "id": 71,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "(de manière) expresse",
+    "versionNL": "uitdrukkelijk"
+  },
+  {
+    "id": 72,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "(de manière) tacite",
+    "versionNL": "stilzwijgend"
+  },
+  {
+    "id": 73,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le contrat d'adhésion",
+    "versionNL": "het toetredingscontract"
+  },
+  {
+    "id": 74,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la  force obligatoire du contrat",
+    "versionNL": "de verbindende kracht van de overeenkomst"
+  },
+  {
+    "id": 75,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la théorie de l'imprévision",
+    "versionNL": "de imprevisieleer"
+  },
+  {
+    "id": 76,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la bonne foi",
+    "versionNL": "de goede trouw"
+  },
+  {
+    "id": 77,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la fonction complétive de la bonne foi",
+    "versionNL": "de aanvullende werking van de goede trouw"
+  },
+  {
+    "id": 78,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la fonction modératrice de la bonne foi",
+    "versionNL": "de matigende werking van de goede trouw"
+  },
+  {
+    "id": 79,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "la clause abusive",
+    "versionNL": "het onrechtmatig beding"
+  },
+  {
+    "id": 80,
+    "numeroChapitre": 2,
+    "libelleChapitre": "Le contrat. Notion et grands principes",
+    "versionFR": "le déséquilibre manifeste",
+    "versionNL": "het kennelijk onevenwicht"
+  },
+  {
+    "id": 81,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la formation dynamique du contrat",
+    "versionNL": "de dynamische totstandkoming van het contract"
+  },
+  {
+    "id": 82,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'intérêt négatif",
+    "versionNL": "het negatief belang"
+  },
+  {
+    "id": 83,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'intérêt positif",
+    "versionNL": "het  positief belang"
+  },
+  {
+    "id": 84,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'offre",
+    "versionNL": "het aanbod"
+  },
+  {
+    "id": 85,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'élément essentiel",
+    "versionNL": "het essentieel bestanddeel"
+  },
+  {
+    "id": 86,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'élément substantiel",
+    "versionNL": "het substantieel bestanddeel"
+  },
+  {
+    "id": 87,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'élément accessoire",
+    "versionNL": "het bijkomstig bestanddeel"
+  },
+  {
+    "id": 88,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "le retrait",
+    "versionNL": "de intrekking"
+  },
+  {
+    "id": 89,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la révocation",
+    "versionNL": "de herroeping"
+  },
+  {
+    "id": 90,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'acceptation",
+    "versionNL": "de aanvaarding"
+  },
+  {
+    "id": 91,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la contre-offre",
+    "versionNL": "het tegenaanbod"
+  },
+  {
+    "id": 92,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "l'accord de principe",
+    "versionNL": "het beginselakkoord"
+  },
+  {
+    "id": 93,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la promesse unilatérale de contrat",
+    "versionNL": "de eenzijdige contractbelofte"
+  },
+  {
+    "id": 94,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la promesse bilatérale de contrat",
+    "versionNL": "de wederzijdse contractbelofte"
+  },
+  {
+    "id": 95,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "le pacte de préférence",
+    "versionNL": "het voorkeurscontract"
+  },
+  {
+    "id": 96,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "les conditions générales",
+    "versionNL": "de algemene voorwaarden"
+  },
+  {
+    "id": 97,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "les conditions particulières",
+    "versionNL": "de bijzondere voorwaarden"
+  },
+  {
+    "id": 98,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la représentation immédiate (ou parfaite)",
+    "versionNL": "de onmiddellijke vertegenwoordiging"
+  },
+  {
+    "id": 99,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la représentation médiate (ou imparfaite)",
+    "versionNL": "de middellijke vertegenwoordiging"
+  },
+  {
+    "id": 100,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "le représentant",
+    "versionNL": "de vertegenwoordiger"
+  },
+  {
+    "id": 101,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "le représenté",
+    "versionNL": "de vertegenwoordigde"
+  },
+  {
+    "id": 102,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "la ratification",
+    "versionNL": "de bekrachtiging"
+  },
+  {
+    "id": 103,
+    "numeroChapitre": 3,
+    "libelleChapitre": "Conclusion du contrat",
+    "versionFR": "le mandat apparent",
+    "versionNL": "de schijnvertegenwoordiging"
+  },
+  {
+    "id": 104,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la preuve",
+    "versionNL": "het bewijs"
+  },
+  {
+    "id": 105,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'écrit",
+    "versionNL": "het geschrift"
+  },
+  {
+    "id": 106,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la signature",
+    "versionNL": "de handtekening"
+  },
+  {
+    "id": 107,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la signature électronique",
+    "versionNL": "de elektronische handtekening"
+  },
+  {
+    "id": 108,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'acte sous signature privée",
+    "versionNL": "de onderhandse akte"
+  },
+  {
+    "id": 109,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'acte authentique",
+    "versionNL": "de authentieke akte"
+  },
+  {
+    "id": 110,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "le témoignage",
+    "versionNL": "de getuigenis"
+  },
+  {
+    "id": 111,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la présomption",
+    "versionNL": "het vermoeden"
+  },
+  {
+    "id": 112,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la présomption légale",
+    "versionNL": "het wettelijk vermoeden"
+  },
+  {
+    "id": 113,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la présomption de fait",
+    "versionNL": "het feitelijk vermoeden"
+  },
+  {
+    "id": 114,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "réfragable",
+    "versionNL": "weerlegbaar"
+  },
+  {
+    "id": 115,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "irréfragable",
+    "versionNL": "onweerlegbaar"
+  },
+  {
+    "id": 116,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'aveu",
+    "versionNL": "de bekentenis"
+  },
+  {
+    "id": 117,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la charge de la preuve",
+    "versionNL": "de bewijslast"
+  },
+  {
+    "id": 118,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'administration de la preuve",
+    "versionNL": "de bewijsvoering"
+  },
+  {
+    "id": 119,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "l'admissibilité de la preuve",
+    "versionNL": "de  toelaatbaarheid van het bewijs"
+  },
+  {
+    "id": 120,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "par tous modes de preuve",
+    "versionNL": "met alle bewijsmiddelen"
+  },
+  {
+    "id": 121,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la preuve outre ou contre un écrit",
+    "versionNL": "het bewijs boven of tegen een geschrift"
+  },
+  {
+    "id": 122,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "le commencement de preuve par écrit",
+    "versionNL": "het begin van bewijs door geschrift"
+  },
+  {
+    "id": 123,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la valeur probante",
+    "versionNL": "de bewijswaarde"
+  },
+  {
+    "id": 124,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "la force probante",
+    "versionNL": "de wettelijke bewijswaarde"
+  },
+  {
+    "id": 125,
+    "numeroChapitre": 4,
+    "libelleChapitre": "Preuve des actes et des faits juridiques",
+    "versionFR": "le serment",
+    "versionNL": "de eed"
+  },
+  {
+    "id": 126,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la formation statique du contrat",
+    "versionNL": "de statische totstandkoming van de het contract"
+  },
+  {
+    "id": 127,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "valable",
+    "versionNL": "geldig"
+  },
+  {
+    "id": 128,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la validité",
+    "versionNL": "de geldigheid"
+  },
+  {
+    "id": 129,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "nul",
+    "versionNL": "nietig"
+  },
+  {
+    "id": 130,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la nullité",
+    "versionNL": "de nietigheid"
+  },
+  {
+    "id": 131,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "le consentement",
+    "versionNL": "de toestemming"
+  },
+  {
+    "id": 132,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la rencontre des consentements",
+    "versionNL": "de wilsovereenstemming"
+  },
+  {
+    "id": 133,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "l'absence totale de consentement",
+    "versionNL": "de afwezigheid van elke wilsovereenstemming"
+  },
+  {
+    "id": 134,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la volonté réelle",
+    "versionNL": "de werkelijke wil"
+  },
+  {
+    "id": 135,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la volonté déclarée",
+    "versionNL": "de verklaarde wil"
+  },
+  {
+    "id": 136,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "l'erreur-obstacle",
+    "versionNL": "de wilsverhinderende dwaling"
+  },
+  {
+    "id": 137,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "l'erreur",
+    "versionNL": "de dwaling"
+  },
+  {
+    "id": 138,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "déterminant",
+    "versionNL": "doorslaggevend"
+  },
+  {
+    "id": 139,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "excusable",
+    "versionNL": "verschoonbaar"
+  },
+  {
+    "id": 140,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "le dol",
+    "versionNL": "het bedrog"
+  },
+  {
+    "id": 141,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la manoeuvre",
+    "versionNL": "de kunstgreep"
+  },
+  {
+    "id": 142,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la réticence dolosive",
+    "versionNL": "het verzwijgen"
+  },
+  {
+    "id": 143,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la violence (vice de consentement)",
+    "versionNL": "het geweld"
+  },
+  {
+    "id": 144,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la violence (littéralement la contrainte)",
+    "versionNL": "de dwang"
+  },
+  {
+    "id": 145,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la lésion",
+    "versionNL": "de benadeling"
+  },
+  {
+    "id": 146,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la lésion qualifiée",
+    "versionNL": "de gekwalificeerde benadeling"
+  },
+  {
+    "id": 147,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la simulation",
+    "versionNL": "de veinzing"
+  },
+  {
+    "id": 148,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "l'acte apparent",
+    "versionNL": "de de schijnovereenkomst"
+  },
+  {
+    "id": 149,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la contre-lettre",
+    "versionNL": "de tegenbrief"
+  },
+  {
+    "id": 150,
+    "numeroChapitre": 5,
+    "libelleChapitre": "Condition de validité. Consentement",
+    "versionFR": "la capacité",
+    "versionNL": "de bekwaamheid"
+  },
+  {
+    "id": 151,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "l'objet",
+    "versionNL": "het voorwerp"
+  },
+  {
+    "id": 152,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "possible",
+    "versionNL": "mogelijk"
+  },
+  {
+    "id": 153,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "déterminé",
+    "versionNL": "bepaald"
+  },
+  {
+    "id": 154,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "déterminable",
+    "versionNL": "bepaalbaar"
+  },
+  {
+    "id": 155,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "licite",
+    "versionNL": "geoorloofd"
+  },
+  {
+    "id": 156,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la chose dans le commerce",
+    "versionNL": "de zaak in de handel"
+  },
+  {
+    "id": 157,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la cause",
+    "versionNL": "de oorzaak"
+  },
+  {
+    "id": 158,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "le motif déterminant",
+    "versionNL": "het determinerende beweegreden"
+  },
+  {
+    "id": 159,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la fausse cause",
+    "versionNL": "de valse oorzaak"
+  },
+  {
+    "id": 160,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la cause de nullité",
+    "versionNL": "de nietigheidsgrond"
+  },
+  {
+    "id": 161,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la personne justifiant d'un intérêt",
+    "versionNL": "de belanghebbende"
+  },
+  {
+    "id": 162,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "l'annulation",
+    "versionNL": "de nietigverklaring"
+  },
+  {
+    "id": 163,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la confirmation",
+    "versionNL": "de bevestiging"
+  },
+  {
+    "id": 164,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la rétroactivité",
+    "versionNL": "de retroactiviteit"
+  },
+  {
+    "id": 165,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "avec effet rétroactif",
+    "versionNL": "met terugwerkende kracht"
+  },
+  {
+    "id": 166,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la restitution",
+    "versionNL": "de restitutie"
+  },
+  {
+    "id": 167,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "la nullité partielle",
+    "versionNL": "de gedeeltelijke nietigheid"
+  },
+  {
+    "id": 168,
+    "numeroChapitre": 6,
+    "libelleChapitre": "Objet et cause. Théorie des nullités",
+    "versionFR": "les impenses (ou les dépenses)",
+    "versionNL": "de uitgaven"
+  },
+  {
+    "id": 169,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'interprétaton",
+    "versionNL": "de uitlegging"
+  },
+  {
+    "id": 170,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'intention commune",
+    "versionNL": "de gemeenschappelijke bedoeling"
+  },
+  {
+    "id": 171,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la violation de la foi due à un acte",
+    "versionNL": "de schending van de bewijskracht"
+  },
+  {
+    "id": 172,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "ambigu",
+    "versionNL": "dubbelzinnig"
+  },
+  {
+    "id": 173,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la clause",
+    "versionNL": "het beding"
+  },
+  {
+    "id": 174,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le doute",
+    "versionNL": "de twijfel"
+  },
+  {
+    "id": 175,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le bénéficiaire",
+    "versionNL": "de begunstigde"
+  },
+  {
+    "id": 176,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la qualification",
+    "versionNL": "de kwalificatie"
+  },
+  {
+    "id": 177,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la requalification",
+    "versionNL": "de herkwalificatie"
+  },
+  {
+    "id": 178,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la condition",
+    "versionNL": "de voorwaarde"
+  },
+  {
+    "id": 179,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la condition suspensive",
+    "versionNL": "de opschortende voorwaarde"
+  },
+  {
+    "id": 180,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la condition résolutoire",
+    "versionNL": "de ontbindende voorwaarde"
+  },
+  {
+    "id": 181,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la condition purement potestative",
+    "versionNL": "de zuiver potestatieve voorwaarde"
+  },
+  {
+    "id": 182,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'événemement futur et incertain",
+    "versionNL": "de toekomstige en onzekere gebeurtenis"
+  },
+  {
+    "id": 183,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "exigible",
+    "versionNL": "opeisbaar"
+  },
+  {
+    "id": 184,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la réalisation de la condition",
+    "versionNL": "de vervulling van de voorwaarde"
+  },
+  {
+    "id": 185,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la défaillance de la condition",
+    "versionNL": "de niet-vervulling van de voorwaarde"
+  },
+  {
+    "id": 186,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'empêchement de la condition",
+    "versionNL": "de verhindering van de voorwaarde"
+  },
+  {
+    "id": 187,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la provocation de la condition",
+    "versionNL": "de uitlokking van de voorwaarde"
+  },
+  {
+    "id": 188,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la renonciation à la condition",
+    "versionNL": "de afstand van de voorwaarde"
+  },
+  {
+    "id": 189,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la période d'atteinte",
+    "versionNL": "de wachttijd"
+  },
+  {
+    "id": 190,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'acte de disposition",
+    "versionNL": "de beschikkingshandeling"
+  },
+  {
+    "id": 191,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'acte d'administration",
+    "versionNL": "de beheershandeling"
+  },
+  {
+    "id": 192,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'acte conservatoire",
+    "versionNL": "de behoudshandeling"
+  },
+  {
+    "id": 193,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le concours des créanciers",
+    "versionNL": "de samenloop van schuldeisers"
+  },
+  {
+    "id": 194,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le terme",
+    "versionNL": "de tijdsbepaling"
+  },
+  {
+    "id": 195,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le terme suspensif",
+    "versionNL": "de opschortende tijdsbepaling"
+  },
+  {
+    "id": 196,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le terme extinctif",
+    "versionNL": "de uitdovende tijdsbepaling"
+  },
+  {
+    "id": 197,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'échéance du terme",
+    "versionNL": "het verstrijken van de tijdsbepaling"
+  },
+  {
+    "id": 198,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "l'extinction",
+    "versionNL": "het tenietgaan"
+  },
+  {
+    "id": 199,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la déchéance",
+    "versionNL": "het verval"
+  },
+  {
+    "id": 200,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "de plein droit",
+    "versionNL": "van rechtswege"
+  },
+  {
+    "id": 201,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la résiliation",
+    "versionNL": "de opzegging"
+  },
+  {
+    "id": 202,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "les usages",
+    "versionNL": "de gebruiken"
+  },
+  {
+    "id": 203,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la durée",
+    "versionNL": "de duur"
+  },
+  {
+    "id": 204,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la durée indéterminée",
+    "versionNL": "de onbepaalde duur"
+  },
+  {
+    "id": 205,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la durée déterminée",
+    "versionNL": "de bepaalde duur"
+  },
+  {
+    "id": 206,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "la notification",
+    "versionNL": "de kennisgeving"
+  },
+  {
+    "id": 207,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le congé",
+    "versionNL": "de opzegging"
+  },
+  {
+    "id": 208,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "le délai de préavis",
+    "versionNL": "de opzegtermijn"
+  },
+  {
+    "id": 209,
+    "numeroChapitre": 7,
+    "libelleChapitre": "Contenu du contrat",
+    "versionFR": "inefficace",
+    "versionNL": "onwerkzaam"
+  },
+  {
+    "id": 210,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "l'abus de droit",
+    "versionNL": "het rechtsmisbruik"
+  },
+  {
+    "id": 211,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "manifestement",
+    "versionNL": "kennelijk"
+  },
+  {
+    "id": 212,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la réduction (modération)",
+    "versionNL": "de matiging"
+  },
+  {
+    "id": 213,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la théorie de l'apparence",
+    "versionNL": "de schijnleer"
+  },
+  {
+    "id": 214,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la théorie l'apparence",
+    "versionNL": "de vertrouwensleer"
+  },
+  {
+    "id": 215,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la faute intentionnelle",
+    "versionNL": "de opzettelijke fout"
+  },
+  {
+    "id": 216,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la caducité",
+    "versionNL": "het verval"
+  },
+  {
+    "id": 217,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la disparition de l'objet",
+    "versionNL": "het wegvallen van het voorwerp"
+  },
+  {
+    "id": 218,
+    "numeroChapitre": 8,
+    "libelleChapitre": "Mécanismes correcteurs",
+    "versionFR": "la disparition de la cause",
+    "versionNL": "het wegvallen van de oorzaak"
+  },
+  {
+    "id": 219,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'exécution",
+    "versionNL": "de uitvoering"
+  },
+  {
+    "id": 220,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'exécution",
+    "versionNL": "de nakoming"
+  },
+  {
+    "id": 221,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "volontairement",
+    "versionNL": "vrijwillig"
+  },
+  {
+    "id": 222,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le paiement",
+    "versionNL": "de betaling"
+  },
+  {
+    "id": 223,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "libératoire",
+    "versionNL": "bevrijdend"
+  },
+  {
+    "id": 224,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le débiteur apparent",
+    "versionNL": "de schijnschuldenaar"
+  },
+  {
+    "id": 225,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le créancier apparent",
+    "versionNL": "de  schijnschuldeiser"
+  },
+  {
+    "id": 226,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'indisponibilité",
+    "versionNL": "de onbeschikbaarheid"
+  },
+  {
+    "id": 227,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le délai de grâce",
+    "versionNL": "de respijttermijn"
+  },
+  {
+    "id": 228,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le lieu",
+    "versionNL": "de plaats"
+  },
+  {
+    "id": 229,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le coût",
+    "versionNL": "de kost"
+  },
+  {
+    "id": 230,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le montant",
+    "versionNL": "het bedrag"
+  },
+  {
+    "id": 231,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "le nominalisme monétaire",
+    "versionNL": "het monetaire nominalisme"
+  },
+  {
+    "id": 232,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "la dette de valeur",
+    "versionNL": "de waardeschuld"
+  },
+  {
+    "id": 233,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'obligation de somme",
+    "versionNL": "de verbintenis tot betaling van een geldsom"
+  },
+  {
+    "id": 234,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'intérêt (sur une somme d'argent)",
+    "versionNL": "de interest / intrest"
+  },
+  {
+    "id": 235,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "échu (intérêt, dette)",
+    "versionNL": "vervallen"
+  },
+  {
+    "id": 236,
+    "numeroChapitre": 9,
+    "libelleChapitre": "Exécution volontaire",
+    "versionFR": "l'imputation",
+    "versionNL": "de toerekening"
+  },
+  {
+    "id": 237,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'imputabilité",
+    "versionNL": "de toerekenbaarheid"
+  },
+  {
+    "id": 238,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'inexécution",
+    "versionNL": "de wanprestatie"
+  },
+  {
+    "id": 239,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'inexécution",
+    "versionNL": "de niet-nakoming"
+  },
+  {
+    "id": 240,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "le manquement",
+    "versionNL": "de tekortkoming"
+  },
+  {
+    "id": 241,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'exécution en nature",
+    "versionNL": "de uitvoering in natura"
+  },
+  {
+    "id": 242,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la réparation du dommage",
+    "versionNL": "het herstel van de schade"
+  },
+  {
+    "id": 243,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "en argent",
+    "versionNL": "in geld"
+  },
+  {
+    "id": 244,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la résolution",
+    "versionNL": "de ontbinding"
+  },
+  {
+    "id": 245,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la résolution pour inexécution",
+    "versionNL": "de ontbinding wegens niet-nakoming"
+  },
+  {
+    "id": 246,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "suffisamment grave",
+    "versionNL": "voldoende ernstig"
+  },
+  {
+    "id": 247,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "les dommages-intérêts complémentaires",
+    "versionNL": "de aanvullende schadevergoeding"
+  },
+  {
+    "id": 248,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la résolution aux torts réciproques des parties",
+    "versionNL": "de ontbinding ten laste van beide partijen"
+  },
+  {
+    "id": 249,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la clause résolutoire expresse",
+    "versionNL": "het uitdrukkelijk ontbindend beding"
+  },
+  {
+    "id": 250,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "de bonne foi",
+    "versionNL": "te goeder trouw"
+  },
+  {
+    "id": 251,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "suspendre l'exécution",
+    "versionNL": "de uitvoering schorsen"
+  },
+  {
+    "id": 252,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'exception d'inexécution",
+    "versionNL": "de exceptie van niet-uitvoering"
+  },
+  {
+    "id": 253,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'exception d'inexécution",
+    "versionNL": "de e.n.a.c. (exceptio non adimpleti contractus)"
+  },
+  {
+    "id": 254,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la mise en demeure",
+    "versionNL": "de ingebrekestelling"
+  },
+  {
+    "id": 255,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la demeure",
+    "versionNL": "het verzuim"
+  },
+  {
+    "id": 256,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "le remplacement",
+    "versionNL": "de vervanging"
+  },
+  {
+    "id": 257,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'urgence",
+    "versionNL": "de hoogdringendheid"
+  },
+  {
+    "id": 258,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "les circonstances exceptionnelles",
+    "versionNL": "de uitzonderlijke omstandigheden"
+  },
+  {
+    "id": 259,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la mesure",
+    "versionNL": "de maatregel"
+  },
+  {
+    "id": 260,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la force majeure",
+    "versionNL": "de overmacht"
+  },
+  {
+    "id": 261,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "la théorie des risques",
+    "versionNL": "de risicoleer"
+  },
+  {
+    "id": 262,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'impossibilité d'exécution",
+    "versionNL": "de onmogelijkheid tot nakoming"
+  },
+  {
+    "id": 263,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'impossibilité définitive",
+    "versionNL": "de definitieve onmogelijkheid"
+  },
+  {
+    "id": 264,
+    "numeroChapitre": 10,
+    "libelleChapitre": "Inexécution",
+    "versionFR": "l'impossibilité temporaire",
+    "versionNL": "de tijdelijke onmogelijkheid"
+  },
+  {
+    "id": 265,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "la relativité des effets du contrat",
+    "versionNL": "de relativiteit van de gevolgen van het contract"
+  },
+  {
+    "id": 266,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'opposabilité",
+    "versionNL": "de tegenwerpelijkheid"
+  },
+  {
+    "id": 267,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'héritier",
+    "versionNL": "de erfgenaam"
+  },
+  {
+    "id": 268,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'ayant cause universel (ou ayant droit universel)",
+    "versionNL": "de algemene rechtverkrijgende"
+  },
+  {
+    "id": 269,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'ayant cause à titre universel (ou ayant droit à titre universel)",
+    "versionNL": "de rechtverkrijgende onder algemene titel"
+  },
+  {
+    "id": 270,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'ayant cause à titre particulier (ou ayant droit à titre particulier)",
+    "versionNL": "de bijzondere rechtverkrijgende"
+  },
+  {
+    "id": 271,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le porte-fort",
+    "versionNL": "de sterkmaking"
+  },
+  {
+    "id": 272,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "la clause contraire",
+    "versionNL": "het andersluidende beding"
+  },
+  {
+    "id": 273,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "la stipulation pour autrui",
+    "versionNL": "het derdenbeding"
+  },
+  {
+    "id": 274,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le promettant",
+    "versionNL": "de belover"
+  },
+  {
+    "id": 275,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le stipulant",
+    "versionNL": "de bedinger"
+  },
+  {
+    "id": 276,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le tiers bénéficiaire",
+    "versionNL": "de derde-begunstigde"
+  },
+  {
+    "id": 277,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le droit direct",
+    "versionNL": "het rechtstreekse recht"
+  },
+  {
+    "id": 278,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'action directe",
+    "versionNL": "de rechtstreekse vordering"
+  },
+  {
+    "id": 279,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'exception (le moyen de défense)",
+    "versionNL": "de exceptie"
+  },
+  {
+    "id": 280,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le sous-débiteur",
+    "versionNL": "de onderschuldenaar"
+  },
+  {
+    "id": 281,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "le débiteur principal",
+    "versionNL": "de hoofdschuldenaar"
+  },
+  {
+    "id": 282,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "la tierce complicité",
+    "versionNL": "de derde-medeplichtigheid"
+  },
+  {
+    "id": 283,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'action oblique",
+    "versionNL": "de zijdelingse vordering"
+  },
+  {
+    "id": 284,
+    "numeroChapitre": 11,
+    "libelleChapitre": "Effets du contrat envers les tiers",
+    "versionFR": "l'action paulienne",
+    "versionNL": "de pauliaanse vordering"
+  },
+  {
+    "id": 285,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la cession de créance",
+    "versionNL": "de overdracht van schuldvordering"
+  },
+  {
+    "id": 286,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la cession de dette",
+    "versionNL": "de overdracht van schuld"
+  },
+  {
+    "id": 287,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la cession de contrat",
+    "versionNL": "de overdracht van contract"
+  },
+  {
+    "id": 288,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "cessible",
+    "versionNL": "voor overdracht vatbaar"
+  },
+  {
+    "id": 289,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la créance future",
+    "versionNL": "de toekomstige schuldvordering"
+  },
+  {
+    "id": 290,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le droit accessoire",
+    "versionNL": "het nevenrecht"
+  },
+  {
+    "id": 291,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le droit litigieux",
+    "versionNL": "het betwiste recht"
+  },
+  {
+    "id": 292,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le débiteur cédé",
+    "versionNL": "de gecedeerde / overgedragen schuldenaar"
+  },
+  {
+    "id": 293,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le cédant",
+    "versionNL": "de overdrager"
+  },
+  {
+    "id": 294,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le cessionnaire",
+    "versionNL": "de overnemer"
+  },
+  {
+    "id": 295,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la reconnaissance",
+    "versionNL": "de erkenning"
+  },
+  {
+    "id": 296,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la cession parfaite",
+    "versionNL": "de volkomen overdracht"
+  },
+  {
+    "id": 297,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la cession imparfaite",
+    "versionNL": "de onvolkomen overdracht"
+  },
+  {
+    "id": 298,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la position contractuelle",
+    "versionNL": "de contractspositie"
+  },
+  {
+    "id": 299,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la subrogation",
+    "versionNL": "de subrogatie"
+  },
+  {
+    "id": 300,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la subrogation",
+    "versionNL": "de indeplaatsstelling"
+  },
+  {
+    "id": 301,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "la charge définitive de la dette",
+    "versionNL": "de definitieve last van de schuld"
+  },
+  {
+    "id": 302,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "l'effet translatif",
+    "versionNL": "de overdragende werking"
+  },
+  {
+    "id": 303,
+    "numeroChapitre": 12,
+    "libelleChapitre": "Transmission des obligations",
+    "versionFR": "le paiement partiel",
+    "versionNL": "de gedeeltelijke betaling"
+  },
+  {
+    "id": 304,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "le quasi-contrat",
+    "versionNL": "het oneigenlijke contract"
+  },
+  {
+    "id": 305,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "la gestion d'affaire",
+    "versionNL": "de zaakwaarneming"
+  },
+  {
+    "id": 306,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "le gérant de l'affaire",
+    "versionNL": "de zaakwaarnemer"
+  },
+  {
+    "id": 307,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "le maître de l'affaire",
+    "versionNL": "de meester van de zaak"
+  },
+  {
+    "id": 308,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "le paiement indu",
+    "versionNL": "de onverschuldigde betaling"
+  },
+  {
+    "id": 309,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "l'enrichissement sans cause",
+    "versionNL": "de ongerechtvaardigde verrijking"
+  },
+  {
+    "id": 310,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "l'enrichissement",
+    "versionNL": "de verrijking"
+  },
+  {
+    "id": 311,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "l'enrichi",
+    "versionNL": "de de verrijkte"
+  },
+  {
+    "id": 312,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "l'appauvrissement",
+    "versionNL": "de verarming"
+  },
+  {
+    "id": 313,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "l'appauvri",
+    "versionNL": "de verarmde"
+  },
+  {
+    "id": 314,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "le transfert définitif de patrimoine",
+    "versionNL": "de definitieve vermogensverschuiving"
+  },
+  {
+    "id": 315,
+    "numeroChapitre": 13,
+    "libelleChapitre": "Sources d'obligations analogues au contrat",
+    "versionFR": "la subsidiarité",
+    "versionNL": "de subsidiariteit"
+  },
+  {
+    "id": 316,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la responsabilité",
+    "versionNL": "de aansprakelijkheid"
+  },
+  {
+    "id": 317,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la responsabilité civile",
+    "versionNL": "de burgerlijke aansprakelijkheid"
+  },
+  {
+    "id": 318,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la responsbilité contractuelle",
+    "versionNL": "de contractuele aansprakelijkheid"
+  },
+  {
+    "id": 319,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la responsabilité extracontractuelle",
+    "versionNL": "de buitencontractuele aansprakelijkheid"
+  },
+  {
+    "id": 320,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "le concours de responsabilité",
+    "versionNL": "de samenloop van aansprakelijkheid"
+  },
+  {
+    "id": 321,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "le moyen de défense",
+    "versionNL": "het verweermiddel"
+  },
+  {
+    "id": 322,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la responsabilité à base de faute",
+    "versionNL": "de foutaansprakelijkheid"
+  },
+  {
+    "id": 323,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la faute",
+    "versionNL": "de fout"
+  },
+  {
+    "id": 324,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la norme de comportement",
+    "versionNL": "de gedragsnorm"
+  },
+  {
+    "id": 325,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la norme générale de prudence",
+    "versionNL": "de de algemene zorgvuldigheidsnorm"
+  },
+  {
+    "id": 326,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la personne prudente et raisonnable",
+    "versionNL": "de voorzichtige en redelijke persoon"
+  },
+  {
+    "id": 327,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "dans les mêmes circonstances",
+    "versionNL": "in dezelfde omstandigheden"
+  },
+  {
+    "id": 328,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "les règles de l'art",
+    "versionNL": "de eisen van goed vakmanschap"
+  },
+  {
+    "id": 329,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la faute lourde",
+    "versionNL": "de zware fout"
+  },
+  {
+    "id": 330,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "la faute légère",
+    "versionNL": "de lichte fout"
+  },
+  {
+    "id": 331,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "l'auxiliaire (agent d'exécution)",
+    "versionNL": "de hulppersoon"
+  },
+  {
+    "id": 332,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "l'agent d'exécution",
+    "versionNL": "de uitvoeringsagent"
+  },
+  {
+    "id": 333,
+    "numeroChapitre": 14,
+    "libelleChapitre": "Responsabilité civile. Principes et faute",
+    "versionFR": "le mineur (d'âge)",
+    "versionNL": "de minderjarige"
+  },
+  {
+    "id": 334,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "le lien causal",
+    "versionNL": "het oorzakelijk verband"
+  },
+  {
+    "id": 335,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la théorie de l'équivalence des conditions",
+    "versionNL": "de equivalentieleer"
+  },
+  {
+    "id": 336,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la condition nécessaire",
+    "versionNL": "de noodzakelijke oorzaak"
+  },
+  {
+    "id": 337,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la condition suffisante",
+    "versionNL": "de voldoende oorzaak"
+  },
+  {
+    "id": 338,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "prévisible",
+    "versionNL": "voorzienbaar"
+  },
+  {
+    "id": 339,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "imprévisible",
+    "versionNL": "onvoorzienbaar"
+  },
+  {
+    "id": 340,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la faute commune",
+    "versionNL": "de gemeenschappelijke fout"
+  },
+  {
+    "id": 341,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la perte d'une chance",
+    "versionNL": "het verlies van een kans"
+  },
+  {
+    "id": 342,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "le partage de responsabilité",
+    "versionNL": "de verdeling van de aansprakelijkheid"
+  },
+  {
+    "id": 343,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "la prédisposition",
+    "versionNL": "de voorbeschiktheid"
+  },
+  {
+    "id": 344,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "l'état antérieur",
+    "versionNL": "de vooraf bestaande toestand"
+  },
+  {
+    "id": 345,
+    "numeroChapitre": 15,
+    "libelleChapitre": "Lien causal",
+    "versionFR": "l'action récursoire",
+    "versionNL": "de regresvordering"
+  },
+  {
+    "id": 346,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "le dommage",
+    "versionNL": "de schade"
+  },
+  {
+    "id": 347,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'atteinte",
+    "versionNL": "de aantasting"
+  },
+  {
+    "id": 348,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "la personne lésée",
+    "versionNL": "de benadeelde"
+  },
+  {
+    "id": 349,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "la victime",
+    "versionNL": "het slachtoffer"
+  },
+  {
+    "id": 350,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'indemnisation",
+    "versionNL": "de schadeloosstelling"
+  },
+  {
+    "id": 351,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'indemnisation",
+    "versionNL": "de vergoeding"
+  },
+  {
+    "id": 352,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'indemnisation (les dommages-intérêts)",
+    "versionNL": "de schadevergoeding"
+  },
+  {
+    "id": 353,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'intérêt légitime",
+    "versionNL": "het rechtmatig belang"
+  },
+  {
+    "id": 354,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'intérêt personnel",
+    "versionNL": "het persoonlijk belang"
+  },
+  {
+    "id": 355,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "le dommage certain",
+    "versionNL": "de zekere schade"
+  },
+  {
+    "id": 356,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "le dommage futur",
+    "versionNL": "de toekomstige schade"
+  },
+  {
+    "id": 357,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "le préjudice par répercussion (ou par ricochet)",
+    "versionNL": "de schade bij terugslag"
+  },
+  {
+    "id": 358,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "la répération intégrale",
+    "versionNL": "het integraal herstel"
+  },
+  {
+    "id": 359,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "la réparation en nature",
+    "versionNL": "het herstel in natura"
+  },
+  {
+    "id": 360,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "la libre disposition de l'indemnité",
+    "versionNL": "de vrije beschikking over de schadevergoeding"
+  },
+  {
+    "id": 361,
+    "numeroChapitre": 16,
+    "libelleChapitre": "Dommage et réparation",
+    "versionFR": "l'aggravation",
+    "versionNL": "de verergering"
+  },
+  {
+    "id": 362,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "l'erreur invincible",
+    "versionNL": "de onoverwinnelijke dwaling"
+  },
+  {
+    "id": 363,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "la contrainte irrésistible",
+    "versionNL": "de onweerstaanbare dwang"
+  },
+  {
+    "id": 364,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "l'état de nécessité",
+    "versionNL": "de noodtoestand"
+  },
+  {
+    "id": 365,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "la légitime défense",
+    "versionNL": "de wettige verdediging"
+  },
+  {
+    "id": 366,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "l'ordre de la loi",
+    "versionNL": "het bevel van de wet"
+  },
+  {
+    "id": 367,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "l'ordre de l'autorité",
+    "versionNL": "het bevel van de overheid"
+  },
+  {
+    "id": 368,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "le trouble mental",
+    "versionNL": "de geestesstoornis"
+  },
+  {
+    "id": 369,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "en équité",
+    "versionNL": "naar billijkheid"
+  },
+  {
+    "id": 370,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "le consentement de la personne lésée",
+    "versionNL": "de toestemming van de benadeelde"
+  },
+  {
+    "id": 371,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "la clause pénale",
+    "versionNL": "het strafbeding"
+  },
+  {
+    "id": 372,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "la clause exonératoire de responsabilité",
+    "versionNL": "het bevrijdingsbeding"
+  },
+  {
+    "id": 373,
+    "numeroChapitre": 17,
+    "libelleChapitre": "Moyens de défense. Dérogations conventionnelles",
+    "versionFR": "vider le contrat de sa substance",
+    "versionNL": "het contract uithollen"
+  },
+  {
+    "id": 374,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le gardien d'une chose",
+    "versionNL": "de bewaarder van een zaak"
+  },
+  {
+    "id": 375,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le vice de la chose",
+    "versionNL": "het gebrek van de zaak"
+  },
+  {
+    "id": 376,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "vicieux (affecté d'un vice)",
+    "versionNL": "gebrekkig"
+  },
+  {
+    "id": 377,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "pour compte propre",
+    "versionNL": "voor eigen rekening"
+  },
+  {
+    "id": 378,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le propriétaire",
+    "versionNL": "de eigenaar"
+  },
+  {
+    "id": 379,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "l'animal",
+    "versionNL": "het dier"
+  },
+  {
+    "id": 380,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le bâtiment",
+    "versionNL": "het gebouw"
+  },
+  {
+    "id": 381,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "la responsabilité pour autrui",
+    "versionNL": "de aansprakelijkheid voor andermans daad"
+  },
+  {
+    "id": 382,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le commettant",
+    "versionNL": "de aansteller"
+  },
+  {
+    "id": 383,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le préposé",
+    "versionNL": "de aangestelde"
+  },
+  {
+    "id": 384,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "le membre du personnel",
+    "versionNL": "het personeelslid"
+  },
+  {
+    "id": 385,
+    "numeroChapitre": 18,
+    "libelleChapitre": "Responsabilités particulières",
+    "versionFR": "l'organe de gestion",
+    "versionNL": "het bestuursorgaan"
+  },
+  {
+    "id": 386,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la solidarité",
+    "versionNL": "de hoofdelijkheid"
+  },
+  {
+    "id": 387,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "les effets principaux",
+    "versionNL": "de hoofdgevolgen"
+  },
+  {
+    "id": 388,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "les effets secondaires",
+    "versionNL": "de bijkomende gevolgen"
+  },
+  {
+    "id": 389,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la libération (du débiteur)",
+    "versionNL": "de bevrijding"
+  },
+  {
+    "id": 390,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "l'exception personnelle",
+    "versionNL": "de persoonlijke exceptie"
+  },
+  {
+    "id": 391,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "l'exception commune",
+    "versionNL": "de gemene exceptie"
+  },
+  {
+    "id": 392,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la remise de dette",
+    "versionNL": "de kwijtschelding"
+  },
+  {
+    "id": 393,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la confusion",
+    "versionNL": "de schuldvermenging"
+  },
+  {
+    "id": 394,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "le droit de recours",
+    "versionNL": "het verhaalsrecht"
+  },
+  {
+    "id": 395,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "le décès",
+    "versionNL": "het overlijden"
+  },
+  {
+    "id": 396,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la divisibilité",
+    "versionNL": "de deelbaarheid"
+  },
+  {
+    "id": 397,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "l'indivisibilité",
+    "versionNL": "de ondeelbaarheid"
+  },
+  {
+    "id": 398,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la compensation",
+    "versionNL": "de schuldvergelijking"
+  },
+  {
+    "id": 399,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la novation",
+    "versionNL": "de schuldvernieuwing"
+  },
+  {
+    "id": 400,
+    "numeroChapitre": 19,
+    "libelleChapitre": "Obligations à sujets multiples. Extinction de l'obligation",
+    "versionFR": "la sûreté",
+    "versionNL": "de zekerheid"
+  },
+  {
+    "id": 401,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "la prescription",
+    "versionNL": "de verjaring"
+  },
+  {
+    "id": 402,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "le délai à peine de déchéance",
+    "versionNL": "de vervaltermijn"
+  },
+  {
+    "id": 403,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "d'office",
+    "versionNL": "ambtshalve"
+  },
+  {
+    "id": 404,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "en tout état de cause",
+    "versionNL": "in elke staat van het geding"
+  },
+  {
+    "id": 405,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'interruption de la prescription",
+    "versionNL": "de stuiting van de verjaring"
+  },
+  {
+    "id": 406,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "la suspension de la prescription",
+    "versionNL": "de schorsing van de verjaring"
+  },
+  {
+    "id": 407,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'interruption civile",
+    "versionNL": "de burgerlijke stuiting"
+  },
+  {
+    "id": 408,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'interruption naturelle",
+    "versionNL": "de natuurlijke stuiting"
+  },
+  {
+    "id": 409,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "la citation en justice",
+    "versionNL": "de dagvaarding"
+  },
+  {
+    "id": 410,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "le commandement de payer",
+    "versionNL": "het bevel tot betaling"
+  },
+  {
+    "id": 411,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "la saisie",
+    "versionNL": "het beslag"
+  },
+  {
+    "id": 412,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'action en garantie",
+    "versionNL": "de vordering tot vrijwaring"
+  },
+  {
+    "id": 413,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "le délai",
+    "versionNL": "de termijn"
+  },
+  {
+    "id": 414,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'action réelle",
+    "versionNL": "de zakelijke vordering"
+  },
+  {
+    "id": 415,
+    "numeroChapitre": 20,
+    "libelleChapitre": "Prescription extinctive",
+    "versionFR": "l'action personnelle",
+    "versionNL": "de persoonlijke vordering"
+  }
+]

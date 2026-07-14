@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Greffe — Vocabulaire NL → FR</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="reliure">
+
+    <header class="entete">
+      <p class="entete__oeillet">NL → FR</p>
+      <h1 class="entete__titre">Le Greffe</h1>
+      <p class="entete__soustitre">Vocabulaire du droit des obligations — Verbintenissenrecht</p>
+    </header>
+
+    <main class="dossier">
+
+      <!-- ÉCRAN 1 : sélection du dossier à réviser -->
+      <section id="ecran-selection" class="ecran">
+        <h2 class="ecran__titre">Choisir un dossier</h2>
+        <p class="ecran__consigne">Sélectionne un chapitre à réviser, ou ouvre le dossier complet.</p>
+
+        <button id="bouton-dossier-complet" class="onglet onglet--complet" type="button">
+          <span class="onglet__numero">✦</span>
+          <span class="onglet__libelle">Dossier complet</span>
+        </button>
+
+        <!-- Les onglets de chapitre sont injectés ici en JS, un bouton par chapitre.
+             Suggestion de structure pour chaque bouton généré :
+
+             <button class="onglet" type="button" data-chapitre="1. Introduction générale">
+               <span class="onglet__numero">1</span>
+               <span class="onglet__libelle">Introduction générale</span>
+             </button>
+        -->
+        <div id="liste-chapitres" class="grille-onglets" aria-live="polite"></div>
+      </section>
+
+      <!-- ÉCRAN 2 : le quiz en cours -->
+      <section id="ecran-quiz" class="ecran ecran--cachee">
+
+        <div class="quiz__entete">
+          <p id="nom-dossier-actif" class="quiz__dossier">Dossier complet</p>
+          <p id="compteur-score" class="quiz__score">Score : 0 / 0</p>
+        </div>
+
+        <div class="fiche">
+          <p class="fiche__etiquette">Traduire en français</p>
+          <p id="mot-neerlandais" class="fiche__terme">—</p>
+
+          <form id="formulaire-reponse" class="fiche__formulaire" autocomplete="off">
+            <label for="champ-reponse" class="fiche__label-invisible">Ta traduction</label>
+            <input
+              id="champ-reponse"
+              class="fiche__champ"
+              type="text"
+              placeholder="Ta traduction en français…"
+              autocomplete="off"
+            >
+            <button id="bouton-verifier" class="bouton bouton--principal" type="submit">
+              Vérifier
+            </button>
+          </form>
+
+          <!-- Zone de feedback : à faire apparaître/disparaître en JS selon l'état -->
+          <div id="zone-feedback" class="feedback feedback--cachee" aria-live="polite">
+            <div id="tampon" class="tampon">VALIDÉ</div>
+            <p id="reponse-message" class="feedback__reponse"></p>
+            <button id="bouton-suivant" class="bouton bouton--discret" type="button">
+              Question suivante →
+            </button>
+          </div>
+        </div>
+
+        <button id="bouton-arreter" class="lien-arret" type="button">
+          Clore le dossier
+        </button>
+      </section>
+
+      <!-- ÉCRAN 3 : fin de session -->
+      <section id="ecran-fin" class="ecran ecran--cachee">
+        <p class="tampon tampon--fin">DOSSIER CLOS</p>
+        <h2 class="ecran__titre">Session terminée</h2>
+        <p id="resume-final" class="ecran__resume">
+          Score final : <span id="score-final">0</span> / <span id="nb-questions-final">0</span>
+        </p>
+        <button id="bouton-recommencer" class="bouton bouton--principal" type="button">
+          Ouvrir un nouveau dossier
+        </button>
+      </section>
+
+    </main>
+
+    <footer class="pied">
+      <p>415 entrées · 20 chapitres · Droit des obligations</p>
+    </footer>
+
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

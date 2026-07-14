@@ -1,0 +1,459 @@
+/* ===========================================================
+   LE GREFFE — Vocabulaire NL → FR
+   Thème : dossier judiciaire (reliure verte, parchemin, tampons)
+   =========================================================== */
+
+:root {
+  --vert-registre: #0f2a20;
+  --vert-registre-clair: #16392a;
+  --parchemin: #f1e7d0;
+  --parchemin-ombre: #e4d6b6;
+  --encre: #2a2015;
+  --encre-douce: #5c4f3c;
+  --or-feuille: #b4924b;
+  --or-feuille-clair: #d4b876;
+  --vert-tampon: #2f6b48;
+  --rouge-cachet: #9c3b3b;
+  --ligne: rgba(42, 32, 21, 0.16);
+  --ombre-carte: rgba(0, 0, 0, 0.35);
+
+  --police-titre: "Cormorant Garamond", Georgia, serif;
+  --police-corps: "Source Serif 4", Georgia, serif;
+  --police-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--vert-registre);
+  background-image:
+    radial-gradient(ellipse at top, var(--vert-registre-clair), transparent 60%);
+  font-family: var(--police-corps);
+  color: var(--parchemin);
+  display: flex;
+  justify-content: center;
+  padding: clamp(1rem, 4vw, 3rem) 1rem;
+}
+
+.reliure {
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* ---------- En-tête ---------- */
+
+.entete {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.entete__oeillet {
+  font-family: var(--police-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--or-feuille-clair);
+  margin: 0 0 0.5rem;
+}
+
+.entete__titre {
+  font-family: var(--police-titre);
+  font-weight: 600;
+  font-size: clamp(2.25rem, 6vw, 3rem);
+  margin: 0;
+  color: var(--parchemin);
+  letter-spacing: 0.02em;
+}
+
+.entete__soustitre {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  color: var(--or-feuille-clair);
+  font-style: italic;
+}
+
+/* ---------- Carte "dossier" ---------- */
+
+.dossier {
+  background: var(--parchemin);
+  color: var(--encre);
+  border-radius: 6px;
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  box-shadow: 0 20px 45px var(--ombre-carte), 0 0 0 1px var(--or-feuille);
+  position: relative;
+}
+
+.dossier::before {
+  /* petit repère "perforation" en haut de la fiche, effet classeur */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 12px;
+  background: var(--vert-registre);
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px var(--or-feuille);
+}
+
+.ecran--cachee {
+  display: none;
+}
+
+.ecran__titre {
+  font-family: var(--police-titre);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.ecran__consigne {
+  margin: 0 0 1.5rem;
+  color: var(--encre-douce);
+}
+
+/* ---------- Écran 1 : sélection ---------- */
+
+.onglet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: transparent;
+  border: 1px solid var(--ligne);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-family: var(--police-corps);
+  font-size: 1rem;
+  color: var(--encre);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.1s ease;
+}
+
+.onglet:hover {
+  border-color: var(--or-feuille);
+  background: rgba(180, 146, 75, 0.08);
+}
+
+.onglet:active {
+  transform: scale(0.99);
+}
+
+.onglet:focus-visible {
+  outline: 2px solid var(--vert-registre);
+  outline-offset: 2px;
+}
+
+.onglet__numero {
+  font-family: var(--police-mono);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--parchemin);
+  background: var(--or-feuille);
+  min-width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.onglet__libelle {
+  flex: 1;
+}
+
+.onglet--complet {
+  margin-bottom: 1.25rem;
+  border: 1px dashed var(--or-feuille);
+  background: rgba(180, 146, 75, 0.06);
+  font-weight: 600;
+}
+
+.onglet--complet .onglet__numero {
+  background: var(--vert-registre);
+}
+
+.grille-onglets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.grille-onglets::-webkit-scrollbar {
+  width: 6px;
+}
+
+.grille-onglets::-webkit-scrollbar-thumb {
+  background: var(--or-feuille);
+  border-radius: 3px;
+}
+
+/* ---------- Écran 2 : quiz ---------- */
+
+.quiz__entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.25rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.quiz__dossier {
+  margin: 0;
+  font-style: italic;
+  color: var(--encre-douce);
+}
+
+.quiz__score {
+  margin: 0;
+  font-family: var(--police-mono);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--vert-registre);
+  background: rgba(15, 42, 32, 0.07);
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+}
+
+.fiche {
+  border: 1px solid var(--ligne);
+  border-radius: 4px;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.fiche__etiquette {
+  font-family: var(--police-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--encre-douce);
+  margin: 0 0 0.5rem;
+}
+
+.fiche__terme {
+  font-family: var(--police-titre);
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+  color: var(--vert-registre);
+  line-height: 1.2;
+}
+
+.fiche__formulaire {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.fiche__label-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.fiche__champ {
+  flex: 1 1 220px;
+  font-family: var(--police-corps);
+  font-size: 1rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--ligne);
+  border-radius: 4px;
+  background: #fffdf8;
+  color: var(--encre);
+}
+
+.fiche__champ:focus-visible {
+  outline: 2px solid var(--vert-registre);
+  outline-offset: 1px;
+  border-color: var(--vert-registre);
+}
+
+/* ---------- Boutons ---------- */
+
+.bouton {
+  font-family: var(--police-corps);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0.7rem 1.3rem;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.1s ease, opacity 0.15s ease;
+}
+
+.bouton:active {
+  transform: scale(0.98);
+}
+
+.bouton--principal {
+  background: var(--vert-registre);
+  color: var(--parchemin);
+}
+
+.bouton--principal:hover {
+  background: var(--vert-registre-clair);
+}
+
+.bouton--discret {
+  background: transparent;
+  color: var(--vert-registre);
+  border: 1px solid var(--vert-registre);
+}
+
+.bouton--discret:hover {
+  background: rgba(15, 42, 32, 0.07);
+}
+
+.lien-arret {
+  display: block;
+  margin: 1.25rem auto 0;
+  background: none;
+  border: none;
+  color: var(--encre-douce);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.lien-arret:hover {
+  color: var(--rouge-cachet);
+}
+
+/* ---------- Feedback + tampon ---------- */
+
+.feedback {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px dashed var(--ligne);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.feedback--cachee {
+  display: none;
+}
+
+.tampon {
+  font-family: var(--police-mono);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  padding: 0.5rem 1rem;
+  border: 3px solid currentColor;
+  border-radius: 3px;
+  transform: rotate(-4deg);
+  animation: tamponImpact 0.25s ease-out;
+}
+
+.tampon.tampon--succes {
+  color: var(--vert-tampon);
+}
+
+.tampon.tampon--echec {
+  color: var(--rouge-cachet);
+}
+
+.tampon--fin {
+  color: var(--rouge-cachet);
+  margin: 0 auto 1rem;
+  display: inline-block;
+}
+
+@keyframes tamponImpact {
+  0% {
+    transform: rotate(-4deg) scale(1.6);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-4deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tampon {
+    animation: none;
+  }
+}
+
+.feedback__reponse {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--encre-douce);
+}
+
+.feedback__reponse strong {
+  color: var(--encre);
+}
+
+/* ---------- Écran 3 : fin ---------- */
+
+#ecran-fin {
+  text-align: center;
+}
+
+.ecran__resume {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1.75rem;
+}
+
+#score-final,
+#nb-questions-final {
+  font-family: var(--police-mono);
+  font-weight: 600;
+  color: var(--vert-registre);
+}
+
+/* ---------- Pied de page ---------- */
+
+.pied {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--or-feuille-clair);
+  opacity: 0.75;
+}
+
+.pied p {
+  margin: 0;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 480px) {
+  .fiche__formulaire {
+    flex-direction: column;
+  }
+
+  .fiche__formulaire .bouton {
+    width: 100%;
+  }
+
+  .quiz__entete {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
