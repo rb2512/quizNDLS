@@ -1,8 +1,8 @@
-import { afficherEcranSelection,recommenceBtn,afficherEcranFinal,stopBtn,reponseInput,recupererInput,motNeerlandais ,reponseForm,globalBtn,ecranQuiz,afficherQuizGlobal,afficherBtnChapitre, afficherQuestion } from "/js/ui.js";
+import { reponseBtn,afficherEcranSelection,recommenceBtn,afficherEcranFinal,stopBtn,reponseInput,recupererInput,motNeerlandais ,reponseForm,globalBtn,ecranQuiz,afficherQuizGlobal,afficherBtnChapitre, afficherQuestion } from "/js/ui.js";
 import fetchElement from "/js/api.js"; 
 import { afficherScoreFinal,afficherScore,supprimerFeedback,nextBtn,verifInputVide, afficherFeedback, afficherEchecMessage, afficherSucessMessage } from "/js/ui.js";
-import { incrementerQuestionCompteur, questionCompteur,definirMotActuelFrancais, piocherMotSuivant, initMotsRestants, definirMotActuelNeerlandais, motActuelFrancais, verifInputCorrect, incrementerScore, motsRestants } from "/js/utils.js";
-import { scoreCompteur } from "/js/utils.js";
+import { returnInitialQuestionCompteur, returnInitialScore,incrementerQuestionCompteur, questionCompteur,definirMotActuelFrancais, piocherMotSuivant, initMotsRestants, definirMotActuelNeerlandais, verifInputCorrect, incrementerScore } from "/js/utils.js";
+import { scoreCompteur, veriftableauVide } from "/js/utils.js";
 let donnees;
 document.addEventListener("DOMContentLoaded", async () => {
     donnees = await fetchElement();
@@ -11,16 +11,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 globalBtn.addEventListener("click", () => {
     afficherQuizGlobal();
-    const newMotsRestants = initMotsRestants(donnees);
-    const result = piocherMotSuivant(newMotsRestants);
+    initMotsRestants(donnees);
+    const result = piocherMotSuivant();
     afficherQuestion(result);
-    afficherScore(motsRestants.length);
+    afficherScore();
 });
 reponseForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const inputRecup = recupererInput();
     const estVide = verifInputVide(inputRecup);
     if (!estVide)  {
+        reponseBtn.disabled = true;
         const newMotActuelFr = definirMotActuelFrancais(inputRecup);
         const newMotActuelNdls = definirMotActuelNeerlandais(motNeerlandais.textContent);
         const {estCorrect, bonneReponse} = verifInputCorrect(newMotActuelFr, newMotActuelNdls, donnees);
@@ -35,17 +36,24 @@ reponseForm.addEventListener("submit", (event) => {
     }
 });
 nextBtn.addEventListener("click", () => {
-    incrementerQuestionCompteur();
-    reponseInput.value = "";
-    supprimerFeedback();
-    const result = piocherMotSuivant(motsRestants);
-    afficherQuestion(result);
-    afficherScore(motsRestants.length);
+    const tableauEstVide = veriftableauVide();
+    if (!tableauEstVide) {
+        incrementerQuestionCompteur();
+        reponseInput.value = "";
+        reponseBtn.disabled  = false;
+        supprimerFeedback();
+        const result = piocherMotSuivant();
+        afficherQuestion(result);
+        afficherScore();
+    }
 });
 stopBtn.addEventListener("click", () => {
     afficherEcranFinal();
     afficherScoreFinal(scoreCompteur, questionCompteur);
 })
 recommenceBtn.addEventListener("click", () => {
+    reponseInput.value = "";
+    returnInitialScore();
+    returnInitialQuestionCompteur();
     afficherEcranSelection();
 })

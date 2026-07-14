@@ -1,4 +1,4 @@
-import fetchElement from "/js/api.js";
+import { afficherEcranFinal, afficherScoreFinal } from "/js/ui.js";
 export let scoreCompteur = 0;
 export let questionCompteur = 0;
 export let motsRestants;
@@ -9,6 +9,14 @@ export function incrementerScore() {
     scoreCompteur += 1;
     return scoreCompteur;
 };
+export function returnInitialScore () {
+    scoreCompteur = 0;
+    return scoreCompteur;
+}
+export function returnInitialQuestionCompteur () {
+    questionCompteur = 0;
+    return questionCompteur;
+}
 export function incrementerQuestionCompteur () {
     questionCompteur += 1;
     return questionCompteur;
@@ -16,6 +24,15 @@ export function incrementerQuestionCompteur () {
 export function initMotsRestants (tableauToSave) {
     motsRestants = [...tableauToSave];
     return motsRestants;
+};
+export function veriftableauVide() {
+    if (motsRestants.length === 0) {
+        afficherEcranFinal();
+        afficherScoreFinal(scoreCompteur, questionCompteur);
+        return true;
+    } else {
+        return false;
+    }
 };
 export function piocherMotSuivant () {
     const index = Math.floor(Math.random() * motsRestants.length);

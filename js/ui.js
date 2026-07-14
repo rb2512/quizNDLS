@@ -1,5 +1,5 @@
-import fetchElement  from "/js/api.js";
-import {scoreCompteur} from "/js/utils.js";
+import { initMotsRestants, piocherMotSuivant } from "/js/utils.js";
+import {scoreCompteur, questionCompteur} from "/js/utils.js";
 
 export const globalBtn = document.getElementById("bouton-dossier-complet");
 const chapitresList = document.getElementById("liste-chapitres");
@@ -11,6 +11,7 @@ export const reponseForm = document.getElementById("formulaire-reponse");
 const feedBackSection = document.getElementById("zone-feedback");
 const reponseMessage = document.getElementById("reponse-message");
 const reponseTampon = document.getElementById("tampon");
+export const reponseBtn = document.getElementById("bouton-verifier");
 export const nextBtn = document.getElementById("bouton-suivant");
 const scoreElement = document.getElementById("compteur-score");
 export const stopBtn = document.getElementById("bouton-arreter");
@@ -19,30 +20,42 @@ const scoreFinalElement = document.getElementById("score-final");
 const nbQuestionsFinalElement = document.getElementById("nb-questions-final");
 export const recommenceBtn = document.getElementById("bouton-recommencer")
 
-function creerBtnChapitre (chapitreNumero, chapitreName) {
+function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
     const chapBtn = document.createElement("button");
     chapBtn.type = "button";
     chapBtn.classList.add("onglet");
     chapBtn.setAttribute("data-chapitre", chapitreNumero);
     const chapSpan = document.createElement("span");
-    chapSpan.classList.add("onglet_numero");
+    chapSpan.classList.add("onglet__numero");
     chapSpan.textContent = chapitreNumero;
     const chapSpanLibelle = document.createElement("span");
-    chapSpanLibelle.classList.add("onglet_libelle");
+    chapSpanLibelle.classList.add("onglet__libelle");
     chapSpanLibelle.textContent = chapitreName;
     chapBtn.appendChild(chapSpan);
     chapBtn.appendChild(chapSpanLibelle);
-    chapBtn.addEventListener("click", () => {
-        chargerQuizChap();
+    chapBtn.addEventListener("click", async (event) => {
+        afficherQuizChap()
+        const cibleEvent = event.currentTarget;
+        const idChapCible = Number(cibleEvent.getAttribute("data-chapitre"));
+        const newDonnees = filtrerChap(idChapCible, initialDonnees);
+        initMotsRestants(newDonnees);
+        const resultPioche = piocherMotSuivant();
+        console.log(resultPioche);
+        afficherQuestion(resultPioche);
+        afficherScore(newDonnees.length);
     })
     return chapBtn;
 };
+export function filtrerChap (chapId, tableauSansFiltre) {
+    const donneesFiltre = tableauSansFiltre.filter(tsf => tsf.numeroChapitre === chapId)
+    return donneesFiltre;
+}
 
 export async function afficherBtnChapitre (valueFetch) {
     const chapitresMap = new Map(valueFetch.map(item => [item.numeroChapitre, item.libelleChapitre]));
     const tableauReponseUnique = Array.from(chapitresMap, ([numeroChapitre, libelleChapitre]) => ({ numeroChapitre, libelleChapitre }));
     tableauReponseUnique.forEach(tr => {
-        chapitresList.appendChild(creerBtnChapitre(tr.numeroChapitre, tr.libelleChapitre));
+        chapitresList.appendChild(creerBtnChapitre(tr.numeroChapitre, tr.libelleChapitre, valueFetch));
     })
 
 }
@@ -77,9 +90,11 @@ export function afficherScoreFinal (scoreFinal, questionFinal) {
 }
 export function afficherQuizGlobal () {
     afficherEcran();
+    supprimerFeedback();
 }
 export function afficherQuizChap () {
     afficherEcran();
+    supprimerFeedback();
 }
 export function afficherQuestion (wordToTranslate) {
     motNeerlandais.textContent = wordToTranslate[0].versionNL;
@@ -90,8 +105,8 @@ export function afficherFeedback () {
 export function supprimerFeedback () {
     feedBackSection.classList.add("feedback--cachee");
 }
-export function afficherScore (questionLength) {
-    scoreElement.textContent = `Score : ${scoreCompteur} / ${questionLength}`;
+export function afficherScore () {
+    scoreElement.textContent = `Score : ${scoreCompteur} / ${questionCompteur}`;
     return scoreElement;
 }
 export function afficherSucessMessage () {
