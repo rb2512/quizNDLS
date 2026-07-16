@@ -60,7 +60,7 @@ export async function afficherBtnChapitre (valueFetch) {
 
 }
 export function recupererInput () {
-    const inputRecup = reponseInput.value.toLowerCase().trim();
+    const inputRecup = reponseInput.value.toLowerCase().trim().replace(/'/g, "'");
     return inputRecup;
 }
 export function verifInputVide (inputToVerif) {
