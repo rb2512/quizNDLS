@@ -116,6 +116,6 @@ export function afficherSucessMessage () {
 }
 export function afficherEchecMessage (bonneReponse) {
     reponseTampon.textContent = "RATÉ";
-    reponseMessage.textContent = `Dommage, la bonne réponse était: ${bonneReponse}`;
+    reponseMessage.innerHTML = `Dommage, la bonne réponse était: <strong>${bonneReponse}</strong>`;
     return reponseMessage;
 }
