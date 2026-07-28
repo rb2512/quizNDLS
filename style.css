@@ -408,6 +408,7 @@ body {
 .feedback__reponse__user {
   color: var(--encre);
   font-size: 1.56em;
+  font-weight: 600;
 }
 
 /* ---------- Écran 3 : fin ---------- */
