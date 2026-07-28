@@ -52,7 +52,7 @@ stopBtn.addEventListener("click", () => {
     afficherScoreFinal(scoreCompteur, questionCompteur);
 })
 recommenceBtn.addEventListener("click", () => {
-    reponseBtn.disabled = "false";
+    reponseBtn.disabled = false;
     reponseInput.value = "";
     returnInitialScore();
     returnInitialQuestionCompteur();
