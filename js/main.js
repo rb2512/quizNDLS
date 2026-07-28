@@ -1,4 +1,4 @@
-import { reponseBtn,afficherEcranSelection,recommenceBtn,afficherEcranFinal,stopBtn,reponseInput,recupererInput,motNeerlandais ,reponseForm,globalBtn,ecranQuiz,afficherQuizGlobal,afficherBtnChapitre, afficherQuestion } from "/js/ui.js";
+import { reponseBtn,afficherEcranSelection,recommenceBtn,afficherEcranFinal,stopBtn,reponseInput,recupererInput,motNeerlandais ,reponseForm,globalBtn,afficherQuizGlobal,afficherBtnChapitre, afficherQuestion } from "/js/ui.js";
 import fetchElement from "/js/api.js"; 
 import { afficherScoreFinal,afficherScore,supprimerFeedback,nextBtn,verifInputVide, afficherFeedback, afficherEchecMessage, afficherSucessMessage } from "/js/ui.js";
 import { returnInitialQuestionCompteur, returnInitialScore,incrementerQuestionCompteur, questionCompteur,definirMotActuelFrancais, piocherMotSuivant, initMotsRestants, definirMotActuelNeerlandais, verifInputCorrect, incrementerScore } from "/js/utils.js";
@@ -27,10 +27,10 @@ reponseForm.addEventListener("submit", (event) => {
         const {estCorrect, bonneReponse} = verifInputCorrect(newMotActuelFr, newMotActuelNdls, donnees);
         afficherFeedback();
         if (estCorrect) {
-            afficherSucessMessage();
+            afficherSucessMessage(bonneReponse, inputRecup);
             incrementerScore();
         } else {
-            afficherEchecMessage(bonneReponse);
+            afficherEchecMessage(bonneReponse, inputRecup);
         }
 
     }
@@ -52,6 +52,7 @@ stopBtn.addEventListener("click", () => {
     afficherScoreFinal(scoreCompteur, questionCompteur);
 })
 recommenceBtn.addEventListener("click", () => {
+    reponseBtn.disabled = "false";
     reponseInput.value = "";
     returnInitialScore();
     returnInitialQuestionCompteur();

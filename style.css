@@ -346,8 +346,7 @@ body {
   border-top: 1px dashed var(--ligne);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0.75rem;
+  align-items: center;
 }
 
 .feedback--cachee {
@@ -360,18 +359,18 @@ body {
   font-size: 1rem;
   letter-spacing: 0.12em;
   padding: 0.5rem 1rem;
-  border: 3px solid currentColor;
   border-radius: 3px;
-  transform: rotate(-4deg);
   animation: tamponImpact 0.25s ease-out;
 }
 
 .tampon.tampon--succes {
-  color: var(--vert-tampon);
+  background: var(--vert-tampon);
+  color: white;
 }
 
 .tampon.tampon--echec {
-  color: var(--rouge-cachet);
+  background: var(--rouge-cachet);
+  color: white;
 }
 
 .tampon--fin {
@@ -401,13 +400,14 @@ body {
 }
 
 .feedback__reponse {
-  margin: 0;
-  font-size: 0.9rem;
+    margin: 15px 0 0.25rem;
+  font-size: 1.1rem;
   color: var(--encre-douce);
 }
 
-.feedback__reponse strong {
+.feedback__reponse__user {
   color: var(--encre);
+  font-size: 1.56em;
 }
 
 /* ---------- Écran 3 : fin ---------- */

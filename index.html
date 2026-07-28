@@ -52,8 +52,7 @@
           <p id="compteur-score" class="quiz__score">Score : 0 / 0</p>
         </div>
 
-        <div class="fiche">
-          <p class="fiche__etiquette">Traduire en français</p>
+        <div id="fiche" class="fiche">
           <p id="mot-neerlandais" class="fiche__terme">—</p>
 
           <form id="formulaire-reponse" class="fiche__formulaire" autocomplete="off">
@@ -71,13 +70,16 @@
           </form>
 
           <!-- Zone de feedback : à faire apparaître/disparaître en JS selon l'état -->
+          </div>
           <div id="zone-feedback" class="feedback feedback--cachee" aria-live="polite">
-            <div id="tampon" class="tampon">VALIDÉ</div>
-            <p id="reponse-message" class="feedback__reponse"></p>
+            <div id="appreciation" class="tampon"></div>
+            <p class="feedback__reponse">Bonne réponse:</p>
+            <p id="mot-traduit" class="feedback__reponse__user"></p>
+            <p class="feedback__reponse">Ta réponse:</p>
+            <p id="reponse-utilisateur" class="feedback__reponse__user"></p>
             <button id="bouton-suivant" class="bouton bouton--discret" type="button">
               Question suivante →
             </button>
-          </div>
         </div>
 
         <button id="bouton-arreter" class="lien-arret" type="button">

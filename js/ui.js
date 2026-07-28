@@ -6,11 +6,13 @@ const chapitresList = document.getElementById("liste-chapitres");
 export const reponseInput = document.getElementById("champ-reponse");
 export const ecranQuiz = document.getElementById("ecran-quiz");
 const ecranSelection = document.getElementById("ecran-selection");
+const divFiche = document.getElementById("fiche");
 export const motNeerlandais = document.getElementById("mot-neerlandais");
 export const reponseForm = document.getElementById("formulaire-reponse");
 const feedBackSection = document.getElementById("zone-feedback");
-const reponseMessage = document.getElementById("reponse-message");
-const reponseTampon = document.getElementById("tampon");
+const reponseAppreciation = document.getElementById("appreciation");
+const motTraduit = document.getElementById("mot-traduit");
+const reponseUilisateur = document.getElementById("reponse-utilisateur");
 export const reponseBtn = document.getElementById("bouton-verifier");
 export const nextBtn = document.getElementById("bouton-suivant");
 const scoreElement = document.getElementById("compteur-score");
@@ -18,7 +20,7 @@ export const stopBtn = document.getElementById("bouton-arreter");
 const ecranFin = document.getElementById("ecran-fin");
 const scoreFinalElement = document.getElementById("score-final");
 const nbQuestionsFinalElement = document.getElementById("nb-questions-final");
-export const recommenceBtn = document.getElementById("bouton-recommencer")
+export const recommenceBtn = document.getElementById("bouton-recommencer");
 
 function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
     const chapBtn = document.createElement("button");
@@ -42,7 +44,7 @@ function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
         const resultPioche = piocherMotSuivant();
         console.log(resultPioche);
         afficherQuestion(resultPioche);
-        afficherScore(newDonnees.length);
+        afficherScore();
     })
     return chapBtn;
 };
@@ -101,21 +103,29 @@ export function afficherQuestion (wordToTranslate) {
 }
 export function afficherFeedback () {
     feedBackSection.classList.remove("feedback--cachee");
+    divFiche.style.display = "none";
 }
 export function supprimerFeedback () {
     feedBackSection.classList.add("feedback--cachee");
+    divFiche.style.display = "block";
+    reponseAppreciation.classList.remove("tampon--succes");
+    reponseAppreciation.classList.remove("tampon--echec")
 }
 export function afficherScore () {
     scoreElement.textContent = `Score : ${scoreCompteur} / ${questionCompteur}`;
     return scoreElement;
 }
-export function afficherSucessMessage () {
-    reponseTampon.textContent = "VALIDÉ";
-    reponseMessage.textContent = "Félicitation, c'est une bonne réponse";
-    return reponseMessage;
+export function afficherSucessMessage (estCorrect, reponseUser) {
+    reponseAppreciation.textContent = "Correct";
+    reponseAppreciation.classList.add("tampon--succes")
+    motTraduit.textContent = estCorrect;
+    reponseUilisateur.textContent = reponseUser;
+    return reponseAppreciation;
 }
-export function afficherEchecMessage (bonneReponse) {
-    reponseTampon.textContent = "RATÉ";
-    reponseMessage.innerHTML = `Dommage, la bonne réponse était: <strong>${bonneReponse}</strong>`;
-    return reponseMessage;
+export function afficherEchecMessage (estIncorrect, reponseUser) {
+    reponseAppreciation.textContent = "Révisez celui-ci !";
+    reponseAppreciation.classList.add("tampon--echec")
+    motTraduit.textContent = estIncorrect;
+    reponseUilisateur.textContent = reponseUser;
+    return reponseAppreciation;
 }
