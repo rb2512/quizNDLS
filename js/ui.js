@@ -21,7 +21,7 @@ const ecranFin = document.getElementById("ecran-fin");
 const scoreFinalElement = document.getElementById("score-final");
 const nbQuestionsFinalElement = document.getElementById("nb-questions-final");
 export const recommenceBtn = document.getElementById("bouton-recommencer");
-const listeHistorique = document.getElementById("liste-historique");
+export const listeHistorique = document.getElementById("liste-historique");
 
 function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
     const chapBtn = document.createElement("button");

@@ -3,7 +3,7 @@ import fetchElement from "/js/api.js";
 import { afficherScoreFinal,afficherScore,supprimerFeedback,nextBtn,verifInputVide, afficherFeedback, afficherEchecMessage, afficherSucessMessage, creerTableauFeedback } from "/js/ui.js";
 import { returnInitialQuestionCompteur, returnInitialScore,incrementerQuestionCompteur, questionCompteur,definirMotActuelFrancais, piocherMotSuivant, initMotsRestants, definirMotActuelNeerlandais, verifInputCorrect, incrementerScore } from "/js/utils.js";
 import { scoreCompteur, veriftableauVide, incrementerTableauFeedback, tableauFeedback, initTableauFeedback } from "/js/utils.js";
-import { afficherTableauFeedback } from "/js/ui.js";
+import { afficherTableauFeedback,listeHistorique } from "/js/ui.js";
 let donnees;
 document.addEventListener("DOMContentLoaded", async () => {
     donnees = await fetchElement();
@@ -61,5 +61,6 @@ recommenceBtn.addEventListener("click", () => {
     returnInitialScore();
     returnInitialQuestionCompteur();
     initTableauFeedback();
+    listeHistorique.innerHTML = "";
     afficherEcranSelection();
 })
