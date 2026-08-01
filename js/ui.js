@@ -1,5 +1,5 @@
-import { initMotsRestants, piocherMotSuivant } from "/js/utils.js";
-import {scoreCompteur, questionCompteur} from "/js/utils.js";
+import { initMotsRestants, piocherMotSuivant, initTableauFeedback } from "/js/utils.js";
+import {scoreCompteur, questionCompteur, tableauFeedback} from "/js/utils.js";
 
 export const globalBtn = document.getElementById("bouton-dossier-complet");
 const chapitresList = document.getElementById("liste-chapitres");
@@ -21,6 +21,7 @@ const ecranFin = document.getElementById("ecran-fin");
 const scoreFinalElement = document.getElementById("score-final");
 const nbQuestionsFinalElement = document.getElementById("nb-questions-final");
 export const recommenceBtn = document.getElementById("bouton-recommencer");
+const listeHistorique = document.getElementById("liste-historique");
 
 function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
     const chapBtn = document.createElement("button");
@@ -41,6 +42,7 @@ function creerBtnChapitre (chapitreNumero, chapitreName,initialDonnees) {
         const idChapCible = Number(cibleEvent.getAttribute("data-chapitre"));
         const newDonnees = filtrerChap(idChapCible, initialDonnees);
         initMotsRestants(newDonnees);
+        initTableauFeedback();
         const resultPioche = piocherMotSuivant();
         console.log(resultPioche);
         afficherQuestion(resultPioche);
@@ -128,4 +130,33 @@ export function afficherEchecMessage (estIncorrect, reponseUser) {
     motTraduit.textContent = estIncorrect;
     reponseUilisateur.textContent = reponseUser;
     return reponseAppreciation;
-}
+};
+export function creerTableauFeedback (elFeedback) {
+    const div = document.createElement("div");
+    div.classList.add("recapitulatif__ligne");
+    const idEl = document.createElement("p");
+    const questionEl = document.createElement("p");
+    questionEl.classList.add("recapitulatif__mot");
+    const reponseUserEl = document.createElement("p");
+    reponseUserEl.classList.add("recapitulatif__reponse-user");
+    const reponseCorrectEl = document.createElement("p");
+    reponseCorrectEl.classList.add("recapitulatif__reponse-correcte");
+    if (elFeedback.estCorrecte === false) {
+        div.classList.add("recapitulatif__ligne--echec");
+    };
+    idEl.textContent = elFeedback.id;
+    questionEl.textContent = elFeedback.question;
+    reponseUserEl.textContent = elFeedback.reponseUser;
+    reponseCorrectEl.textContent = elFeedback.reponseCorrect;
+    div.appendChild(idEl);
+    div.appendChild(questionEl);
+    div.appendChild(reponseUserEl);
+    div.appendChild(reponseCorrectEl);
+    return div;
+};
+
+export function afficherTableauFeedback (tableauAffiche) {
+    tableauAffiche.forEach(t => {
+        listeHistorique.appendChild(creerTableauFeedback(t));
+    });
+};

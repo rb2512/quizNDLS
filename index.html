@@ -87,13 +87,19 @@
         </button>
       </section>
 
-      <!-- ÉCRAN 3 : fin de session -->
+<!-- ÉCRAN 3 : fin de session -->
       <section id="ecran-fin" class="ecran ecran--cachee">
         <p class="tampon tampon--fin">DOSSIER CLOS</p>
         <h2 class="ecran__titre">Session terminée</h2>
         <p id="resume-final" class="ecran__resume">
           Score final : <span id="score-final">0</span> / <span id="nb-questions-final">0</span>
         </p>
+
+        <div class="recapitulatif">
+          <h3 class="recapitulatif__titre">Récapitulatif du dossier</h3>
+          <ul id="liste-historique" class="recapitulatif__liste" aria-live="polite"></ul>
+        </div>
+
         <button id="bouton-recommencer" class="bouton bouton--principal" type="button">
           Ouvrir un nouveau dossier
         </button>

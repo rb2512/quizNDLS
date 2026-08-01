@@ -411,24 +411,107 @@ body {
   font-weight: 600;
 }
 
-/* ---------- Écran 3 : fin ---------- */
+/* ---------- Écran 3 : récapitulatif ---------- */
 
-#ecran-fin {
+.recapitulatif {
+  margin: 0 0 1.75rem;
+  text-align: left;
+}
+
+.recapitulatif__titre {
+  font-family: var(--police-titre);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  color: var(--vert-registre);
   text-align: center;
 }
 
-.ecran__resume {
-  font-size: 1.2rem;
-  margin: 0.5rem 0 1.75rem;
+.recapitulatif__liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 40vh;
+  overflow-y: auto;
+  padding-right: 0.25rem;
 }
 
-#score-final,
-#nb-questions-final {
+.recapitulatif__liste::-webkit-scrollbar {
+  width: 6px;
+}
+
+.recapitulatif__liste::-webkit-scrollbar-thumb {
+  background: var(--or-feuille);
+  border-radius: 3px;
+}
+
+.recapitulatif__ligne {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  border: 1px solid var(--ligne);
+  border-left: 4px solid var(--vert-tampon);
+  border-radius: 4px;
+  padding: 0.6rem 0.8rem;
+  background: rgba(255, 255, 255, 0.25);
+  font-size: 0.85rem;
+}
+
+.recapitulatif__ligne p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.recapitulatif__ligne--echec {
+  border-left-color: var(--rouge-cachet);
+}
+
+.recapitulatif__ligne > p:first-child {
   font-family: var(--police-mono);
+  font-size: 0.75rem;
+  color: var(--or-feuille);
+  font-weight: 600;
+  text-align: center;
+}
+
+.recapitulatif__mot {
   font-weight: 600;
   color: var(--vert-registre);
 }
 
+.recapitulatif__reponse-user {
+  color: var(--encre-douce);
+  font-style: italic;
+}
+
+.recapitulatif__ligne--echec .recapitulatif__reponse-user {
+  text-decoration: line-through;
+  color: var(--rouge-cachet);
+}
+
+.recapitulatif__reponse-correcte {
+  color: var(--encre);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .recapitulatif__ligne {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "numero mot"
+      ". user"
+      ". correcte";
+  }
+
+  .recapitulatif__ligne > p:first-child { grid-area: numero; }
+  .recapitulatif__mot { grid-area: mot; }
+  .recapitulatif__reponse-user { grid-area: user; }
+  .recapitulatif__reponse-correcte { grid-area: correcte; }
+}
 /* ---------- Pied de page ---------- */
 
 .pied {

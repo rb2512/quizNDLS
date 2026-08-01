@@ -4,6 +4,7 @@ export let questionCompteur = 0;
 export let motsRestants;
 export let motActuelNeerlandais;
 export let motActuelFrancais;
+export let tableauFeedback = [];
 
 export function incrementerScore() {
     scoreCompteur += 1;
@@ -61,4 +62,31 @@ export function verifInputCorrect (motFR, motNDLS, tableauMots) {
         bonneReponse = motRecherche[0];
         return {estCorrect, bonneReponse};
     }
-}
+};
+function getNewId(tableauId){
+    const oldId = tableauId.map(t => t.id);
+    let newId;
+    if (oldId.length === 0) {
+        newId = 1;
+        return newId
+    }
+    else { 
+    newId = Math.max(...oldId) + 1;
+    return newId;
+    };
+};
+export function incrementerTableauFeedback (question, reponseUser, reponseCorrect, estCorrecte) {
+    const newFeedback = {
+        id: getNewId(tableauFeedback),
+        question,
+        reponseUser,
+        reponseCorrect, 
+        estCorrecte
+    };
+    tableauFeedback.push(newFeedback);
+    return tableauFeedback;
+};
+export function initTableauFeedback () {
+    tableauFeedback = [];
+    return tableauFeedback;
+};

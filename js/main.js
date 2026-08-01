@@ -1,8 +1,9 @@
 import { reponseBtn,afficherEcranSelection,recommenceBtn,afficherEcranFinal,stopBtn,reponseInput,recupererInput,motNeerlandais ,reponseForm,globalBtn,afficherQuizGlobal,afficherBtnChapitre, afficherQuestion } from "/js/ui.js";
 import fetchElement from "/js/api.js"; 
-import { afficherScoreFinal,afficherScore,supprimerFeedback,nextBtn,verifInputVide, afficherFeedback, afficherEchecMessage, afficherSucessMessage } from "/js/ui.js";
+import { afficherScoreFinal,afficherScore,supprimerFeedback,nextBtn,verifInputVide, afficherFeedback, afficherEchecMessage, afficherSucessMessage, creerTableauFeedback } from "/js/ui.js";
 import { returnInitialQuestionCompteur, returnInitialScore,incrementerQuestionCompteur, questionCompteur,definirMotActuelFrancais, piocherMotSuivant, initMotsRestants, definirMotActuelNeerlandais, verifInputCorrect, incrementerScore } from "/js/utils.js";
-import { scoreCompteur, veriftableauVide } from "/js/utils.js";
+import { scoreCompteur, veriftableauVide, incrementerTableauFeedback, tableauFeedback, initTableauFeedback } from "/js/utils.js";
+import { afficherTableauFeedback } from "/js/ui.js";
 let donnees;
 document.addEventListener("DOMContentLoaded", async () => {
     donnees = await fetchElement();
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 globalBtn.addEventListener("click", () => {
     afficherQuizGlobal();
     initMotsRestants(donnees);
+    initTableauFeedback();
     const result = piocherMotSuivant();
     afficherQuestion(result);
     afficherScore();
@@ -26,6 +28,7 @@ reponseForm.addEventListener("submit", (event) => {
         const newMotActuelNdls = definirMotActuelNeerlandais(motNeerlandais.textContent);
         const {estCorrect, bonneReponse} = verifInputCorrect(newMotActuelFr, newMotActuelNdls, donnees);
         afficherFeedback();
+        incrementerTableauFeedback(newMotActuelNdls, inputRecup, bonneReponse, estCorrect);
         if (estCorrect) {
             afficherSucessMessage(bonneReponse, inputRecup);
             incrementerScore();
@@ -50,11 +53,13 @@ nextBtn.addEventListener("click", () => {
 stopBtn.addEventListener("click", () => {
     afficherEcranFinal();
     afficherScoreFinal(scoreCompteur, questionCompteur);
+    afficherTableauFeedback(tableauFeedback);
 })
 recommenceBtn.addEventListener("click", () => {
     reponseBtn.disabled = false;
     reponseInput.value = "";
     returnInitialScore();
     returnInitialQuestionCompteur();
+    initTableauFeedback();
     afficherEcranSelection();
 })
