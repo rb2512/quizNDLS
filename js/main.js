@@ -49,6 +49,9 @@ nextBtn.addEventListener("click", () => {
         afficherQuestion(result);
         afficherScore();
     }
+    else {
+        afficherTableauFeedback(tableauFeedback);
+    }
 });
 stopBtn.addEventListener("click", () => {
     afficherEcranFinal();
